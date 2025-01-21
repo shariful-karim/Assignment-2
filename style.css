@@ -1,0 +1,463 @@
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    
+} 
+/* color */
+
+.color-1{
+    color: #01ACFD;
+}
+.color-2{
+    color: #495560;
+}
+.color-3{
+    color: #FEA301;
+}
+.color-4{
+    color: #05D4DF;
+}
+.color-5{
+    color: #5D58EF;
+}
+
+
+.bg-1{
+    background-color: #01ACFD;
+}
+.bg-2{
+    background-color: #495560;
+}
+.bg-3{
+    background-color: #FEA301;
+}
+.bg-4{
+    background-color: #05D4DF;
+}
+.bg-5{
+    background-color: #5D58EF;
+}
+.bg-6{
+    background-color: black;
+}
+
+
+/* flex */
+.all-flex{
+    display: flex;
+}
+
+/* button */
+.comon-btn{
+   color: #FFFFFF;
+   border: none;
+   border-radius: 12px;
+   font-size: 1.25rem;
+   font-weight: 600;
+   width: 197px; 
+   height: 50px; 
+           
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* nav design start */
+
+.nav-bar{
+    max-width: 1440px;
+    max-height: 102px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-left{
+    
+    align-items: center;
+    gap: 11px;
+
+}
+.nav-senter{
+   
+    align-items: center;
+    column-gap: 32px;
+    
+    
+}
+.nav-item{
+    list-style: none;
+   
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    font-size: 30px;
+    
+}
+/* responsive */
+@media screen and (max-width:576px){
+
+    .nav-senter, .rs-btn{
+       display: none;
+    }
+    .menu-icon{
+        display: block;
+    
+}
+
+.nav-bar {justify-content: space-between;}
+
+}
+/* nav design end */
+
+/* main top design start */
+.kids-vs{
+    margin: 20px 140px;
+
+    justify-content: center;
+    align-items: center;
+}
+.kids-vs-discription{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.kids-vs-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1.5em 0; 
+}
+.kid{
+    margin-right: 3.12em;
+}
+/* main top design end */
+
+/* responsive  */
+
+@media screen and (max-width:576px){
+    .kids-vs{
+        flex-direction: column-reverse;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        
+    }
+}
+
+/* main Standard Curriculum design start */
+.Curriculum{
+    justify-content:center;
+    align-items: center;
+    
+}
+.Curriculum-title{
+    font-size: 2.87rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* card */
+.Kinder-cd{
+    /* border: 2px solid  rgba(108, 185, 218, 0.397); */
+    background: linear-gradient(to top,#FFFFFF, rgba(222, 245, 255, 0.918));
+    width: 367px;
+    height: 476px;
+    border-radius: 18px;
+    text-align: center;
+    margin-right: 28px;
+    box-shadow: 1px 1px rgba(103, 194, 233, 0.349);
+    
+    
+   
+}
+
+.Kinder-cd-1{
+    /* border: 2px solid  rgba(108, 185, 218, 0.397); */
+    background: linear-gradient(to top,#FFFFFF, #F2E8FF);
+    width: 367px;
+    height: 476px;
+    border-radius: 18px;
+    text-align: center;
+    margin-right: 28px;
+    box-shadow: 1px 1px  #F2E8FF;
+    
+    
+   
+}
+
+
+
+.Kinder-cd-2{
+    /* border: 2px solid  rgba(108, 185, 218, 0.397); */
+    background: linear-gradient(to top  , #FFFFFF, #FFF4DC);
+    width: 367px;
+    height: 476px;
+    border-radius: 18px;
+    text-align: center;
+    margin-right: 28px;
+    box-shadow: 1px 1px #FFF4DC;
+    
+    
+   
+}
+
+
+
+
+
+
+.kinder-cd-title{ 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.kinder-cd-discription{
+    font-size: 0.93rem;
+    font-weight: 600;
+    color: #808080;
+    margin-top: 33px;
+}
+.btn{
+    border: none;
+    background: none;
+    margin-top: 33px;
+    
+}
+.img{
+   
+    margin-top: 52px;
+}
+
+.cd-container{
+    align-items: center;
+    justify-content: center;
+    /* gap: 28px; */
+    margin: 80px 140px;
+    
+    
+}
+.bg-img{
+    background-image: url(./photo/bg.png);
+}
+
+.fav-icon{
+    display: flex; 
+   justify-content: center;
+   
+}
+.i-con{
+    position: relative;
+    color: #ffffff;
+    background-color: #FEA301;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-items: center;    
+    margin:5px;
+    
+   
+}
+
+.i-con i{
+    position: relative;
+
+    top: 15px;
+    font-size: 24px;
+}
+
+/* responsive */
+
+@media screen and (max-width:576px){
+   .cd-container{
+    flex-direction: column;
+   } 
+
+   .Kinder-cd{
+    margin-bottom: 20px;
+   }
+   .Kinder-cd-1{
+    margin-bottom: 20px;
+   }
+   .Kinder-cd-2{
+    margin-bottom: 20px;
+   }
+   .fav-icon{
+    display: none;
+   }
+    
+}
+
+/* our stories  */
+
+.os-img{
+    background-image: url(./photo/story-1.png);
+    height: 337px;
+    width: 540px;
+    border-radius: 16px 16px 0 0;
+    
+}
+.big-img-card{
+    background-color: #f5f2f2b9;
+    /* border: 2px solid black; */
+    width: 540px;
+    height: 630px;
+    border-radius: 16px
+    
+}
+
+.os-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+    
+}
+.os-img2{
+    background-color: #f5f2f2b9;
+    /* border: 2px solid black; */
+    border-radius: 19px;
+}
+.img-child{
+    width: 100%;
+    height: 177px;
+    border-radius: 16px 16px 0 0;
+}
+.big-img-card{
+    margin-right: 18px;
+}
+.os-title{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0;
+}
+.os-btn{
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+
+.right-cad{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.date{
+    width:174px ;
+    height: 38px;
+    background-color: #3CD8E8;
+    border-radius: 47px;
+    color: #FFFFFF;
+    padding: 40px, 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 15px;
+   font-weight: 500px;
+    bottom: 20px;
+    left: 10px;
+}
+
+.fun-toddleer{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 61px;
+}
+.fun-discription{
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 47px;
+}
+.stories-container{
+    justify-content: center; 
+}
+
+@media screen and (max-width:576px){
+
+.big-img-card {display: none;}
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    height: 519px;
+    width: 100%;
+    background-color: #01ACFD;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-top: 133px;
+}
+
+.ft-title{
+    color: #fffefe;
+    font-size: 2.62rem;
+    font-weight: bold;
+}
+
+.about-s{
+color: #FFFFFF;
+font-size: 25px;
+font-weight: bold;
+
+}
+.about-all{
+    color: #ffffffdc;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-top: 32px;
+}
+
+.ft-img{
+    margin-top: 32px;
+    gap: 5px;
+} 
+
+
+.ft-discription{
+    margin-top: 35px;
+    color: #ffffffd8;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* footer  */
+@media screen and (max-width:576px){
+    
+    .footer{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+}
