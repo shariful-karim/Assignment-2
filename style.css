@@ -77,6 +77,7 @@ main{
     margin: 20px auto;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 .nav-left{
@@ -108,10 +109,15 @@ main{
 
 .menu-icon{
     display: none;
+    padding-right: 5px;
 }
 .menu-icon i{
     font-size: 30px;
     
+}
+.hr{
+    display: none;
+    width: 100%;
 }
 /* responsive */
 @media screen and (max-width:576px){
@@ -124,7 +130,11 @@ main{
     
 }
 
-.nav-bar {justify-content: space-between;}
+.nav-bar { width: 100%;
+    justify-content: space-between;}
+.hr{
+    display: block;
+}
 
 }
 /* nav design end */
@@ -159,7 +169,12 @@ main{
         justify-items: center;
         text-align: center;
         
+        
     }
+    .kids-1{
+        width: 100%;
+    }
+   
 }
 
 /* main Standard Curriculum design start */
@@ -397,7 +412,8 @@ main{
 @media screen and (max-width:576px){
 
 .big-img-card {display: none;}
-    
+.stories-container{width: 100%;}
+
     
 }
 
@@ -456,6 +472,8 @@ font-weight: bold;
 @media screen and (max-width:576px){
     
     .footer{
+        width: 100%;
+        height: 642px;
         flex-direction: column;
         padding-left: 20px;
         padding-bottom: 20px;
