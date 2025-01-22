@@ -67,6 +67,7 @@
 main{
     max-width: 1440px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /* nav design start */
@@ -178,6 +179,10 @@ main{
 }
 
 /* main Standard Curriculum design start */
+.bg-img{
+    background-image: url(./photo/bg.png);
+
+}
 .Curriculum{
     justify-content:center;
     align-items: center;
@@ -269,9 +274,6 @@ main{
     
     
 }
-.bg-img{
-    background-image: url(./photo/bg.png);
-}
 
 .fav-icon{
     display: flex; 
@@ -322,12 +324,18 @@ main{
 }
 
 /* our stories  */
-
+.os-bg{
+    background-image: url(./photo/bg.png);
+    background: linear-gradient(to top ,rgba(240, 175, 175, 0.418), rgba(238, 238, 235, 0.445));
+    width: 100%;
+    border-radius: 24px;
+}
 .os-img{
     background-image: url(./photo/story-1.png);
     height: 337px;
     width: 540px;
     border-radius: 16px 16px 0 0;
+    
     
 }
 .big-img-card{
@@ -363,6 +371,7 @@ main{
     font-weight: bold;
     text-align: center;
     margin: 60px 0;
+    margin-top: 30px;
 }
 .os-btn{
   text-align: center;
@@ -379,6 +388,70 @@ main{
     width:174px ;
     height: 38px;
     background-color: #3CD8E8;
+    border-radius: 47px;
+    color: #FFFFFF;
+    padding: 40px, 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 15px;
+   font-weight: 500px;
+    bottom: 20px;
+    left: 10px;
+}
+.date-1{
+    width:174px ;
+    height: 38px;
+    background-color: #7f5fcafb;
+    border-radius: 47px;
+    color: #FFFFFF;
+    padding: 40px, 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 15px;
+   font-weight: 500px;
+    bottom: 20px;
+    left: 10px;
+}
+.date-2{
+    width:174px ;
+    height: 38px;
+    background-color: #58e799;
+    border-radius: 47px;
+    color: #FFFFFF;
+    padding: 40px, 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 15px;
+   font-weight: 500px;
+    bottom: 20px;
+    left: 10px;
+}
+.date-3{
+    width:174px ;
+    height: 38px;
+    background-color: #aaf069;
+    border-radius: 47px;
+    color: #FFFFFF;
+    padding: 40px, 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 15px;
+   font-weight: 500px;
+    bottom: 20px;
+    left: 10px;
+}
+.date-4{
+    width:174px ;
+    height: 38px;
+    background-color: #a2e2e9;
     border-radius: 47px;
     color: #FFFFFF;
     padding: 40px, 10px;
